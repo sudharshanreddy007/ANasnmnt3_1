@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    tools:context="com.example.user.anasnmnt3_1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="85sp"
+        android:background="#fa0404"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="RED" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="85sp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#fdaa04"
+        android:text="ORANGE" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="85sp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#f9f912"
+        android:text="YELLOW" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="85sp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#73f961"
+        android:text="GREEN" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:background="#4659ea"
+        android:layout_height="85sp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="BLUE" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="fill_parent"
+        android:background="#47179f"
+        android:gravity="center"
+        android:layout_height="85sp"
+        android:textSize="20dp"
+        android:text="INDIGO" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="fill_parent"
+        android:layout_height="85sp"
+        android:background="#da21d7"
+        android:gravity="center"
+        android:text="VIOLET"
+        android:textSize="20dp" />
+
+</LinearLayout>
